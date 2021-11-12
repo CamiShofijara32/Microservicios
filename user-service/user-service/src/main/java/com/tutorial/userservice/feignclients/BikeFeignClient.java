@@ -17,7 +17,7 @@ import com.tutorial.userservice.model.Car;
 
 
 
-@FeignClient(name = "bike-service", url="http://localhost:8003")
+@FeignClient(name = "bike-service")
 @RequestMapping("/bike")
 public interface BikeFeignClient {
 	
